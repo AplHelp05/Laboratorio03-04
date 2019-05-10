@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_VideoView"
+            android:icon="@drawable/ic_videoview"
+            android:title="@string/title_VideoView" />
+        <item
+            android:id="@+id/nav_SearchView"
+            android:icon="@drawable/ic_searchview"
+            android:title="@string/title_SearchView" />
+        <item
+            android:id="@+id/nav_ProgressBar"
+            android:icon="@drawable/ic_circular"
+            android:title="@string/title_ProgressBar" />
+        <item
+            android:id="@+id/nav_ProgressBarHorizontal"
+            android:icon="@drawable/ic_horizontal"
+            android:title="@string/title_ProgressBarH" />
+        <item
+            android:id="@+id/nav_RatingBar"
+            android:icon="@drawable/ic_rating"
+            android:title="@string/title_ratingbar" />
+    </group>
+
+</menu>
